@@ -58,10 +58,10 @@ function showComments() {
         <div class="comment-header">
           <span class="comment-author">${comment.name}</span>
           <span class="comment-date">${formatDate(comment.date)}</span>
-          <button class="delete-btn" data-index="${index}">Delete</button>
+          <button class="delete-btn" data-index="${index}"><img scr= "trsh.png" alt="Delete"></button>
         </div>
         <div class="comment-body">${comment.comment}</div>
-        <button class="like-btn" data-index="${index}">Like</button>
+        <button class="like-btn" data-index="${index}"><img scr="like.png" alt="Like"></button>
       </div>
     `;
         commentList.appendChild(li);
