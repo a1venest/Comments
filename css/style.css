@@ -1,0 +1,65 @@
+#comment-block {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+textarea {
+    height: 100px;
+}
+
+.error-message {
+    display: none;
+    color: red;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.comment {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.comment-header .date {
+    font-size: 12px;
+    color: #888;
+}
+
+.comment-actions {
+    display: flex;
+    align-items: center;
+}
+
+.comment-actions button {
+    border: none;
+    background: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.comment-actions .like-icon {
+    color: #ccc;
+    font-size: 16px;
+}
+
+.comment-actions .like-icon.liked {
+    color: #f00;
+}
